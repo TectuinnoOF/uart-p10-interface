@@ -1,0 +1,12 @@
+-d C:\Users\PABLO-LAP-LENOVO\Documents\gti programing projects\hdl\p10_link\p10_link_verilog\verilog\impl\gwsynthesis\verilog.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\PABLO-LAP-LENOVO\Documents\gti programing projects\hdl\p10_link\p10_link_verilog\verilog\src\verilog.cst
+-cfg C:\Users\PABLO-LAP-LENOVO\Documents\gti programing projects\hdl\p10_link\p10_link_verilog\verilog\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
