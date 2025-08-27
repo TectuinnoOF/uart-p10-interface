@@ -1,0 +1,17 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/PABLO-LAP-LENOVO/Documents/gti programing projects/hdl/p10_link/p10_link_verilog/verilog/src/verilog.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/PABLO-LAP-LENOVO/Documents/gti programing projects/hdl/p10_link/p10_link_verilog/verilog/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
