@@ -1,4 +1,10 @@
-module top (
+/// sta-blackbox
+
+module TCT_UARTP10 (
+`ifdef USE_POWER_PINS
+    inout  wire vccd1, // 1.8V power
+    inout  wire vssd1, // ground
+`endif
     input  clk,
     input  rst,
     input  rx_pin,
@@ -132,12 +138,14 @@ module display (
             timeout_frame <= 0;
         end
     end
+    
 
     // Captura de datos UART
     always @(posedge clk or negedge rst) begin
         if (!rst) begin
-            for (i = 0; i < 128; i = i + 1)
-                display_mem[i] <= 8'd0;
+            for (i = 0; i < 128; i = i + 1) begin
+                display_mem[i] = 8'd0;
+            end
             cnt_rx      <= 0;
             valid_frame <= 0;
             led         <= 1;
@@ -381,4 +389,3 @@ module uart_rx (
     end
 
 endmodule
-
